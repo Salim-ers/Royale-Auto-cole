@@ -34,13 +34,14 @@ Dans `src/data/site.js` :
 
 - [ ] `url` : le nom de domaine définitif (canonical, sitemap, Open Graph)
 - [ ] `email`
-- [ ] liens Facebook et TikTok dans `socials`
-- [ ] horaires du samedi : 12 h – 17 h (Vroomvroom) ou 14 h – 17 h (Google) ?
-- [ ] `company` : capital, RCS, numéro d'agrément préfectoral, directeur de publication, hébergeur
-- [ ] `team` : présentation et photos de l'équipe
+- [x] réseaux sociaux : Instagram uniquement
+- [x] horaires du samedi : 12 h – 17 h (Vroomvroom)
+- [ ] `company` : numéro d'agrément préfectoral (capital, RCS, directeur de publication et hébergeur renseignés)
+- [x] `team` : Solène P. et Amaury D. (photos facultatives)
 - [ ] `reviews` : remplacer les avis marqués `example: true` par de vrais avis
 - [ ] `stats` : ajouter le taux de réussite si vous souhaitez l'afficher
-- [ ] `formEndpoint` : service de réception du formulaire (Formspree, Getform…). Vide = mode démo
+- [ ] `formEndpoint` : URL du formulaire Formspree. Vide = mode démo
+- [ ] tarifs dans `formations.js` : forfait permis B à confirmer
 - [x] photos dans `public/images/` (noms définis dans `images`, 1200 px de large)
 
 ## Structure

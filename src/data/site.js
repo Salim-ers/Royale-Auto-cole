@@ -36,13 +36,10 @@ export const SITE = {
 
   socials: [
     { id: 'instagram', label: 'Instagram', handle: '@royaleautoecole', url: 'https://www.instagram.com/royaleautoecole/' },
-    { id: 'facebook', label: 'Facebook', url: '' }, // À COMPLÉTER
-    { id: 'tiktok', label: 'TikTok', url: '' }, // À COMPLÉTER
   ],
 
   // Index 0 = lundi … 6 = dimanche. Plages au format 'HH:MM'.
   hours: {
-    // ⚠ À VÉRIFIER : samedi 12 h – 17 h sur Vroomvroom, 14 h – 17 h sur la fiche Google.
     office: [
       [['14:00', '19:00']],
       [['14:00', '19:00']],
@@ -87,11 +84,11 @@ export const SITE = {
     vat: 'FR80 941 942 708',
     naf: '85.53Z, enseignement de la conduite',
     created: '2025-03-11',
-    capital: '', // À COMPLÉTER
-    rcs: '', // À COMPLÉTER
+    capital: '2 500,00 €',
+    rcs: '941 942 708 R.C.S. Beauvais',
     agrement: '', // À COMPLÉTER : numéro d'agrément préfectoral
-    publicationDirector: '', // À COMPLÉTER
-    host: '', // À COMPLÉTER : nom, adresse et téléphone de l'hébergeur
+    publicationDirector: 'Solène Peloux, présidente',
+    host: 'Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis (vercel.com)',
   },
 
   network: 'Unidec',
@@ -112,17 +109,16 @@ export const SITE = {
 
   team: [
     {
+      name: 'Solène P.',
+      role: 'Gérante, secrétaire et enseignante de la conduite',
+      tags: ['Permis B', 'Relations élèves', 'Référent(e) handicap'],
+      photo: '', // ex. '/images/equipe-solene.jpg'
+    },
+    {
       name: 'Amaury D.',
       role: 'Gérant et enseignant de la conduite',
       tags: ['Permis B', 'Référent pédagogique'],
       photo: '', // ex. '/images/equipe-amaury.jpg'
-    },
-    {
-      name: 'Enseignant·e de la conduite',
-      role: 'Présentation à compléter',
-      tags: ['Photo à ajouter'],
-      photo: '',
-      placeholder: true,
     },
   ],
 

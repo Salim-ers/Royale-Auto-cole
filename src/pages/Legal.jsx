@@ -41,7 +41,7 @@ function Confidentialite() {
       <h2 className="h-sub display">Base légale et conservation</h2>
       <p>Le traitement repose sur votre consentement, exprimé en cochant la case du formulaire. Les demandes sans suite sont conservées au maximum 3 ans après le dernier contact.</p>
       <h2 className="h-sub display">Destinataires</h2>
-      <p>Les données sont destinées à l’équipe de {SITE.name}. Elles ne sont ni vendues ni cédées. Le prestataire technique d’envoi du formulaire agit comme sous-traitant : <Todo>nom du prestataire à compléter</Todo>.</p>
+      <p>Les données sont destinées à l’équipe de {SITE.name}. Elles ne sont ni vendues ni cédées. Deux prestataires techniques agissent comme sous-traitants : Formspree (Formspree, Inc., États-Unis), qui achemine les messages du formulaire, et Vercel (Vercel Inc., États-Unis), qui héberge le site. Ces transferts de données hors de l’Union européenne sont encadrés par les clauses contractuelles types de la Commission européenne.</p>
       <h2 className="h-sub display">Vos droits</h2>
       <p>Vous disposez d’un droit d’accès, de rectification, d’effacement, d’opposition et de limitation. Pour l’exercer, contactez-nous au {SITE.phone} ou via <Link to="/contact" style={{ textDecoration: 'underline' }}>le formulaire</Link>. Vous pouvez aussi adresser une réclamation à la CNIL (cnil.fr).</p>
     </>
