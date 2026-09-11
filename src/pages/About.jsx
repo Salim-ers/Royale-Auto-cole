@@ -68,7 +68,7 @@ export default function About() {
         lead="Royale Auto-école a ouvert route de Paris, à Breuil-le-Vert. Un lieu où l’on se sent bien, une équipe disponible et une idée simple : vous faire progresser sans pression."
         aside={
           <div className="tile" style={{ aspectRatio: '4 / 5', borderRadius: 'var(--r-xl)' }}>
-            <Photo src={images.devanture} alt="Devanture de Royale Auto-école à Breuil-le-Vert" label="Devanture de l’agence" hint="public/images/devanture.webp" />
+            <Photo src={images.devanture} alt="Devanture de Royale Auto-école à Breuil-le-Vert" label="Devanture de l’agence" hint="public/images/devanture.jpg" />
           </div>
         }
       >
@@ -155,10 +155,10 @@ export default function About() {
           </div>
           <div className="gallery">
             {[
-              { src: images.voiture, alt: 'Voiture école noire aux bandes jaunes devant l’agence', label: 'La voiture Royale', hint: 'public/images/voiture.webp' },
-              { src: images.salon, alt: 'Salon avec fauteuils club en cuir', label: 'Le salon', hint: 'public/images/salon.webp' },
-              { src: images.detente, alt: 'Espace détente avec mur végétal', label: 'L’espace détente', hint: 'public/images/espace-detente.webp' },
-              { src: images.salleCode, alt: 'Salle de code avec écran et mur jaune', label: 'La salle de code', hint: 'public/images/salle-code.webp' },
+              { src: images.voiture, alt: 'Voiture école noire aux bandes jaunes devant l’agence', label: 'La voiture Royale', hint: 'public/images/voiture.jpg' },
+              { src: images.salon, alt: 'Salon avec fauteuils club en cuir', label: 'Le salon', hint: 'public/images/salon.jpg' },
+              { src: images.detente, alt: 'Espace détente avec mur végétal', label: 'L’espace détente', hint: 'public/images/espace-detente.jpg' },
+              { src: images.salleCode, alt: 'Salle de code avec écran et mur jaune', label: 'La salle de code', hint: 'public/images/salle-code.jpg' },
             ].map((p, i) => (
               <div key={p.label} className="tile" data-reveal style={{ '--d': `${i * 80}ms` }}>
                 <Photo {...p} />

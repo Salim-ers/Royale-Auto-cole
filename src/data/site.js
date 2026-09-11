@@ -103,11 +103,11 @@ export const SITE = {
 
   // Photos : déposez les fichiers dans /public/images avec ces noms.
   images: {
-    devanture: '/images/devanture.webp',
-    voiture: '/images/voiture.webp',
-    salon: '/images/salon.webp',
-    detente: '/images/espace-detente.webp',
-    salleCode: '/images/salle-code.webp',
+    devanture: '/images/devanture.jpg',
+    voiture: '/images/voiture.jpg',
+    salon: '/images/salon.jpg',
+    detente: '/images/espace-detente.jpg',
+    salleCode: '/images/salle-code.jpg',
   },
 
   team: [

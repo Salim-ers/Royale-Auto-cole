@@ -216,19 +216,19 @@ export default function Home() {
           </div>
           <div className="agence-grid">
             <div className="tile tile-a" data-reveal>
-              <Photo src={images.devanture} alt="Devanture noire et dorée de Royale Auto-école, route de Paris à Breuil-le-Vert" label="Devanture de l’agence" hint="public/images/devanture.webp" />
+              <Photo src={images.devanture} alt="Devanture noire et dorée de Royale Auto-école, route de Paris à Breuil-le-Vert" label="Devanture de l’agence" hint="public/images/devanture.jpg" />
               <span className="tile-caption glass">{SITE.address.street}</span>
             </div>
             <div className="tile" data-reveal style={{ '--d': '80ms' }}>
-              <Photo src={images.salon} alt="Salon d’accueil avec fauteuils club en cuir et affiches de panneaux routiers" label="Le salon" hint="public/images/salon.webp" />
+              <Photo src={images.salon} alt="Salon d’accueil avec fauteuils club en cuir et affiches de panneaux routiers" label="Le salon" hint="public/images/salon.jpg" />
               <span className="tile-caption glass">Le salon</span>
             </div>
             <div className="tile" data-reveal style={{ '--d': '160ms' }}>
-              <Photo src={images.detente} alt="Espace détente avec mur végétal et fauteuils jaunes" label="L’espace détente" hint="public/images/espace-detente.webp" />
+              <Photo src={images.detente} alt="Espace détente avec mur végétal et fauteuils jaunes" label="L’espace détente" hint="public/images/espace-detente.jpg" />
               <span className="tile-caption glass">L’espace détente</span>
             </div>
             <div className="tile" data-reveal style={{ '--d': '240ms' }}>
-              <Photo src={images.salleCode} alt="Salle de code avec mur jaune, fauteuils et écran" label="La salle de code" hint="public/images/salle-code.webp" />
+              <Photo src={images.salleCode} alt="Salle de code avec mur jaune, fauteuils et écran" label="La salle de code" hint="public/images/salle-code.jpg" />
               <span className="tile-caption glass">La salle de code</span>
             </div>
             <div className="tile tile-info" data-reveal style={{ '--d': '320ms' }}>

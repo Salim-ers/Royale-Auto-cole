@@ -41,7 +41,7 @@ Dans `src/data/site.js` :
 - [ ] `reviews` : remplacer les avis marqués `example: true` par de vrais avis
 - [ ] `stats` : ajouter le taux de réussite si vous souhaitez l'afficher
 - [ ] `formEndpoint` : service de réception du formulaire (Formspree, Getform…). Vide = mode démo
-- [ ] photos dans `public/images/` (voir le fichier LISEZ-MOI.txt du dossier)
+- [x] photos dans `public/images/` (noms définis dans `images`, 1200 px de large)
 
 ## Structure
 
