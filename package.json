@@ -1,0 +1,23 @@
+{
+  "name": "royale-auto-ecole",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Site vitrine de Royale Auto-école, Breuil-le-Vert (60)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vite build --ssr src/entry-server.jsx --outDir dist-ssr && node scripts/prerender.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/archivo": "^5.3.0",
+    "@fontsource/yellowtail": "^5.3.0",
+    "lucide-react": "0.383.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "vite": "5.4.11"
+  }
+}

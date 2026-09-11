@@ -1,0 +1,11 @@
+Déposez ici les photos de l'agence avec exactement ces noms :
+
+  devanture.jpg        la façade noire et or
+  voiture.jpg          la voiture école aux bandes jaunes
+  salon.jpg            le salon avec les fauteuils en cuir
+  espace-detente.jpg   le mur végétal et les fauteuils jaunes
+  salle-code.jpg       la salle de code avec l'écran
+
+Format conseillé : JPG ou WebP, 1600 px de large maximum, moins de 300 Ko.
+Tant qu'une photo manque, le site affiche un emplacement graphique à la place.
+Pour changer les noms, modifiez « images » dans src/data/site.js.

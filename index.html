@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <!--app-head-->
+    <meta name="theme-color" content="#0e1422" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <script>document.documentElement.classList.add('js');</script>
+    <style>
+      html.js:not(.app-ready) body { background: #0e1422; }
+      html.js:not(.app-ready) #root { visibility: hidden; animation: royale-failsafe 0s 4s forwards; }
+      @keyframes royale-failsafe { to { visibility: visible; } }
+    </style>
+  </head>
+  <body>
+    <div id="root"><!--app-html--></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
